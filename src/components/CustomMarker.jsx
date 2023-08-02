@@ -1,9 +1,9 @@
 import React from 'react'
-import { Icon } from 'leaflet'
+import {Icon} from 'leaflet'
 import marker from '../images/map_marker_icon.svg'
-import { Marker, Popup } from 'react-leaflet'
+import {Marker, Popup} from 'react-leaflet'
 
-const CustomMarker = ({ item, index, map, isActive }) => {
+const CustomMarker = ({item, index}) => {
 
   const customIcon = new Icon({
     iconUrl: marker,
